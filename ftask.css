@@ -1,7 +1,7 @@
 .imageitem{
   width: 600px;
   height: 150px;
-  background-color: aqua;
+  background-color: rgb(229, 236, 236);
   border: 2px solid black;
   margin: 3px;
   display: flex;
@@ -14,7 +14,7 @@ margin-left: 5px;
   flex-wrap: wrap;
 }
 p{
-  margin-top10px: ;
+  margin-top:10px ;
 }
 
 .button{
@@ -25,6 +25,7 @@ p{
   border-radius: 15px;
   margin-left: 18px;
   margin-top: 10px;
+  background-color:rgb(103, 103, 228) ;
 }
 .a{
   width: 1200px;
