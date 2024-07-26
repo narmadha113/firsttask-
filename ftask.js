@@ -1,75 +1,95 @@
-// 1. Write a program to print Hello world in console? 
 
+
+// 1. Write a program to print Hello world in console? 
+alert("1. Write a program to print Hello world in console?"+" "+"check console");
 console.log("Hello world");
 
 
 //2. Write a program to Add two Numbers ? 
 
-var addNumber=(a,b)=>{
-  return a+b;
+
+function add(a, b) {
+  a = parseInt(prompt("Enter First Number:"));
+  b = parseInt(prompt("Enter Second Number:"));
+  var total = a + b;
+  alert("Total: " + total);
+  return total;
 }
-console.log(addNumber(2,5));
+
 
 
 // 3. Write a program to Find Square root ? 
+function square(a) { a = parseInt(prompt("Enter Number:")); return alert("Total: " + parseInt(a * a)); } 
 
-var findSquareroot=(a)=>{
-  return a*a;
-}
-console.log(findSquareroot(5));
 
 // 4. Write a program to check the input number is Odd or Even? 
-
-var number=3;
-if (number % 2 == 0) {
-  console.log (number + " is even.");
+function check(a) {
+  a = parseInt(prompt("Enter Number:"));
+if (a % 2 == 0) {
+  alert("even");
 } else {
-  console.log(number + " is odd.");
+  alert("odd");
 }
+}
+
 
 // 5. Write a program to generate Random Number? 
 
-function generateRandomNumber() {
-  return Math.random() * Number.MAX_VALUE;
+function Randomno() {
+  alert( Math.random() * Number.MAX_VALUE);
 }
-const randomNumber = generateRandomNumber();
-console.log(randomNumber);
 
 
 // 6. Write a program to Largest of three Numbers? 
 
-function largestOfThree(a, b, c) {
-  return Math.max(a, b, c);
+function maxno(a, b, c) {
+  a = parseInt(prompt("Enter Number:"));
+  b = parseInt(prompt("Enter Number:"));
+  c = parseInt(prompt("Enter Number:"));
+  alert("maxno:" +Math.max(a, b, c));
 }
 
-console.log( largestOfThree(10, 20, 30));
 
 
 // 7. Write a program to Print your Name in console for 20 times? 
-const myName = "narmadha"; 
-for (let i = 0; i < 20; i++) {
-  console.log(myName);
+
+function loop(a) {
+  a =(prompt("Enter name:"));
+  for (let i = 0; i < 20; i++) {
+ console.log("check consolve")
+
+}
 }
 
 
 // 8. Write a  program to check if the input numbers A and B have same last digit? 
 
-function sameLastDigit(a, b) {
-  return a % 10 === b % 10;
+function checkno() {
+  var a = parseInt(prompt("Enter First Number:"));
+  var b = parseInt(prompt("Enter Second Number:"));
+  
+  if (a % 10 === b % 10) {
+    alert("same");
+  } else {
+    alert("not same");
+  }
 }
-console.log(sameLastDigit(23, 2353)); 
 
 
-// 10. Write a program to add append two input Arrays A and B in C and print all Array contents of C in console.  
+// 10. Write a program to add append two input Arrays A and B in C and print all Array contents of C in console. 
+
+function addarray() { 
 const A = [1, 2, 3];
 const B = [4, 5, 6];
 const C = [...A, ...B];
-console.log(C);
+alert(C);
+}
 
-// 9. Write a program to replace Characters of a Input String? 
+function changecahr() {
 let str = prompt("Enter a string: ");
 let charToReplace = prompt("Enter character to replace: ");
 let replacementChar = prompt("Enter replacement character: ");
 let result = str.replace(charToReplace, replacementChar);
-console.log("Original String: " + str);
-console.log("Result String: " + result);
+// console.log("Original String: " + str);
+alert("Result String: " + result);
+}

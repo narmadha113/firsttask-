@@ -1,0 +1,35 @@
+.imageitem{
+  width: 600px;
+  height: 150px;
+  background-color: aqua;
+  border: 2px solid black;
+  margin: 3px;
+  display: flex;
+flex-direction: column;
+border-radius: 15px;
+margin-left: 5px;
+}
+.body{
+  display: flex;
+  flex-wrap: wrap;
+}
+p{
+  margin-top10px: ;
+}
+
+.button{
+  width: 160px;
+  height: 35px;
+  border-radius: 8px;
+  display: block;
+  border-radius: 15px;
+  margin-left: 18px;
+  margin-top: 10px;
+}
+.a{
+  width: 1200px;
+  height: 100px;
+}
+.aa{
+  margin-left: 200px;
+}
